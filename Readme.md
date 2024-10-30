@@ -18,7 +18,7 @@ _Migrating to Vitest? [Check out Vitest cheat sheet](https://github.com/sapegin/
 
 _I recommend [Mrm](https://github.com/sapegin/mrm/tree/master/packages/mrm-task-jest) and [jest-codemods](https://github.com/skovhus/jest-codemods) for single-command Jest installation and easy migration from other frameworks._
 
-**Check out [my book on clean code for frontend developers](https://sapegin.me/book/).**
+[![Washing your code. A book on clean code for frontend developers](https://sapegin.me/images/washing-code-github.jpg)](https://sapegin.me/book/)
 
 ## Table of contents
 
