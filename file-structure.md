@@ -9,11 +9,11 @@ src/
 │   │   └── Button.test.jsx        # Unit test for this component
 │   │
 │   ├── Header/
-│   │   ├── Header.jsx
-│   │   ├── Header.css
-│   │   └── Header.test.jsx
-│   │
-│   └── index.js                   # Optional barrel file
+│        ├── Header.jsx
+│        ├── Header.css
+│        └── Header.test.jsx
+│   
+│   
 │
 ├── hooks/
 │   ├── useFetch.js
@@ -41,9 +41,4 @@ src/
 │
 └── __tests__/                     # Optional global test dir
     ├── setupTests.js              # Config for Vitest + RTL (e.g. custom render)
-    ├── integration/
-    │   └── App.integration.test.jsx
-    └── mocks/
-        ├── handlers.js            # For MSW (mock API handlers)
-        └── server.js
 ```
