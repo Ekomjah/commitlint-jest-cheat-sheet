@@ -2,43 +2,54 @@
 ```
 src/
 │
-├── components/
+├── index.css                     # global resets / base styles  
+├── main.jsx                      # app entry point  
+├── App.jsx                       # root component  
+│
+├── assets/                       # images, fonts, icons, etc.  
+│   ├── logo.svg  
+│   └── …  
+│
+├── components/                   # reusable UI components  
 │   ├── Button/
 │   │   ├── Button.jsx
-│   │   ├── Button.css
-│   │   └── Button.test.jsx        # Unit test for this component
+│   │   ├── Button.module.css
+│   │   └── Button.test.jsx
 │   │
-│   ├── Header/
-│        ├── Header.jsx
-│        ├── Header.css
-│        └── Header.test.jsx
-│   
-│   
+│   ├── Card/
+│   │   ├── Card.jsx
+│   │   ├── Card.module.css
+│   │   └── Card.test.jsx
+│   │
+│   └── …  
 │
-├── hooks/
+├── hooks/                        # custom reusable logic  
 │   ├── useFetch.js
-│   ├── useFetch.test.js           # Test for hook
+│   ├── useFetch.test.js
 │   ├── useLocalStorage.js
 │   └── useLocalStorage.test.js
 │
-├── pages/
+├── pages/                        # app “screens” or “views”  
 │   ├── Home/
 │   │   ├── Home.jsx
-│   │   ├── Home.css
+│   │   ├── Home.module.css
 │   │   └── Home.test.jsx
 │   │
-│   └── About/
-│       ├── About.jsx
-│       ├── About.css
-│       └── About.test.jsx
+│   ├── About/
+│   │   ├── About.jsx
+│   │   ├── About.module.css
+│   │   └── About.test.jsx
+│   │
+│   └── Contact/
+│       ├── Contact.jsx
+│       ├── Contact.module.css
+│       └── Contact.test.jsx
 │
-├── utils/
+├── utils/                        # helper / utility functions  
 │   ├── formatDate.js
 │   └── formatDate.test.js
 │
-├── App.jsx
-├── main.jsx
-│
-└── __tests__/                     # Optional global test dir
-    ├── setupTests.js              # Config for Vitest + RTL (e.g. custom render)
+└── __tests__/                    # global + integration testing setup
+       |
+       |── setupTests.js             # Vitest + RTL config  
 ```
